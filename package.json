@@ -1,0 +1,38 @@
+{
+  "name": "service-claire",
+  "private": true,
+  "version": "1.0.3",
+  "description": "Common Node Server functions and utilities",
+  "main": "index.js",
+  "author": "Clarity Hub, Inc",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "amqplib": "^0.5.1",
+    "bugsnag": "^2.0.0",
+    "helmet": "^3.8.1",
+    "jsonwebtoken": "^7.4.1",
+    "redis": "^2.7.1",
+    "sequelize": "^4.2.0"
+  },
+  "optionalDependencies": {
+    "amqplib": "^0.5.1",
+    "bugsnag": "^2.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "redis": "^2.7.1",
+    "sequelize": "^4.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "bugsnag": "^2.0.0",
+    "eslint": "^4.6.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-claire": "git+ssh://gitlab.com:clairvoyance/eslint-config-claire.git",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}

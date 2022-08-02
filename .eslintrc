@@ -1,0 +1,6 @@
+{
+  "extends": ["claire/node"],
+  "rules": {
+    "import/no-unresolved": "off"
+  }
+}
